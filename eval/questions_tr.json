@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Fazla çalışma ücreti, normal çalışma ücretine göre ne kadar yükseltilerek ödenir?",
+    "expected_pages": [24],
+    "note": "easy - phrased in the law's own vocabulary"
+  },
+  {
+    "question": "Patronum beni işten çıkaracaksa kaç gün önceden haber vermek zorunda?",
+    "expected_pages": [11],
+    "note": "paraphrase - everyday speech; the law says 'bildirim süresi', not 'haber vermek'"
+  },
+  {
+    "question": "Kıdeme göre yıllık ücretli izin kaç gündür ve bu süre nasıl hesaplanır?",
+    "expected_pages": [27, 28],
+    "note": "multi-page - the entitlement table and the calculation rule are separate articles; VERIFY the second page"
+  },
+  {
+    "question": "Haftalık çalışma süresi günlere farklı dağıtıldığında bir günde en çok kaç saat çalışılabilir?",
+    "expected_pages": [32],
+    "note": "buried detail - a limit stated inside a long article about working time"
+  },
+  {
+    "question": "Kıdem tazminatı hangi sayılı kanunun hangi maddesine göre ödenmeye devam eder?",
+    "expected_pages": [48],
+    "note": "numeric identifier - the Turkish counterpart of the SP 800-161r1 question; embeddings encode meaning, not reference numbers"
+  },
+  {
+    "question": "İşveren kurallara uymazsa kendisine ne kadar ceza kesilir?",
+    "expected_pages": [41],
+    "note": "vocabulary gap - everyday 'ceza kesilir' against the law's 'idari para cezası'"
+  },
+  {
+    "question": "Asgari ücret bu yıl ne kadardır?",
+    "expected_pages": [],
+    "note": "control - the law describes how the minimum wage is set but never states an amount"
+  },
+  {
+    "question": "İşçi yıllık izindeyken yurt dışına çıkmak için işverenden izin almak zorunda mıdır?",
+    "expected_pages": [],
+    "note": "control - plausible, on topic, not addressed anywhere in the law"
+  }
+]

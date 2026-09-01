@@ -1,0 +1,42 @@
+[
+  {
+    "question": "REPLACE ME: a question whose answer sits on one clearly identifiable page",
+    "expected_pages": [3],
+    "note": "easy - wording close to the document"
+  },
+  {
+    "question": "REPLACE ME: same fact, but phrased in words that do NOT appear in the text",
+    "expected_pages": [3],
+    "note": "paraphrase - this is what separates embeddings from keyword search"
+  },
+  {
+    "question": "REPLACE ME: a question whose answer spans two pages",
+    "expected_pages": [7, 8],
+    "note": "multi-page"
+  },
+  {
+    "question": "REPLACE ME: a detail buried in the middle of a long section",
+    "expected_pages": [12],
+    "note": "hard - competes with surrounding text"
+  },
+  {
+    "question": "REPLACE ME: a question about a number, date or figure",
+    "expected_pages": [5],
+    "note": "numeric - embeddings are weak here, expect a miss"
+  },
+  {
+    "question": "REPLACE ME: a plausible question the document does NOT answer",
+    "expected_pages": [],
+    "note": "control - should return nothing under MAX_DISTANCE"
+  },
+  {
+    "question": "REPLACE ME: a second control, on-topic but not covered",
+    "expected_pages": [],
+    "note": "control"
+  },
+  {
+    "question": "REPLACE ME: a question using a synonym for a key term in the document",
+    "expected_pages": [9],
+    "note": "vocabulary gap"
+  }
+]

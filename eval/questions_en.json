@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What are the five steps for creating and using a CSF Organizational Profile?",
+    "expected_pages": [7],
+    "note": "easy - the question reuses the document's own wording"
+  },
+  {
+    "question": "If a company is attacked and its systems go down, which part of the framework covers getting back to normal?",
+    "expected_pages": [4, 22],
+    "note": "paraphrase - 'attacked', 'go down' and 'getting back to normal' appear nowhere in the text; the answer is RECOVER"
+  },
+  {
+    "question": "How does the framework support communication between executives, managers and practitioners?",
+    "expected_pages": [10, 11],
+    "note": "multi-page - section 5.1 runs across a page break"
+  },
+  {
+    "question": "What must supply chain risk management plans cover once a supplier relationship ends?",
+    "expected_pages": [18],
+    "note": "buried detail - GV.SC-10, the last item in a long bullet list"
+  },
+  {
+    "question": "Which revision of SP 800-161 covers cybersecurity supply chain risk management?",
+    "expected_pages": [14],
+    "note": "numeric - embeddings encode meaning, not exact identifiers; a miss here is informative rather than surprising"
+  },
+  {
+    "question": "What does the document say about hiring and staffing practices?",
+    "expected_pages": [17],
+    "note": "vocabulary gap - the document says 'human resources practices', the question does not"
+  },
+  {
+    "question": "What does SP 800-53 control AC-2 require?",
+    "expected_pages": [],
+    "note": "control - the document cites SP 800-53 but never states what any individual control requires"
+  },
+  {
+    "question": "What percentage of revenue should an organization spend on cybersecurity?",
+    "expected_pages": [],
+    "note": "control - on topic, plausible, and deliberately not answered anywhere in the document"
+  }
+]
