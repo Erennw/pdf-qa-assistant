@@ -195,7 +195,3 @@ evaluation above.
 Embedding runs locally and costs nothing. Only answer generation is
 billed — the retrieved excerpts plus the question, per query, against
 `claude-haiku-4-5`. Queries that clear no chunk never reach the API.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
